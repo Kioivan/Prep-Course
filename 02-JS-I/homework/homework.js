@@ -16,7 +16,7 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 0 ;
+const nuevoModulo = 21 % 5 === 1 ;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -36,8 +36,8 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-var resulatoSuma = x - y; 
-  return resulatoSuma;
+var resultadoSuma = x + y;
+  return resultadoSuma;
 }
 
 function resta(x, y) {
@@ -65,7 +65,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-if (x = y) {
+if (x === y) {
   return true;
 }
 return false;
@@ -77,7 +77,7 @@ function tienenMismaLongitud(str1, str2) {
   // Tu código:
   var longStr1 = str1.length;
   var longStr2 = str2.length;
-if (longStr1 = longStr2) {
+if (longStr1 === longStr2) {
   return true;
 }
 return false;
@@ -141,7 +141,7 @@ return resultadoCuadrado;
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  var resultadoCubo = Math.pow (num,2);
+  var resultadoCubo = Math.pow (num,3);
 return resultadoCubo;
 }
 
